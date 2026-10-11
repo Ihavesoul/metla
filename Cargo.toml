@@ -1,0 +1,26 @@
+[package]
+name = "metla"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+description = "Zero-nonsense disk sweeper: fast parallel indexing, hogs, suggestions, archive-or-purge."
+license = "MIT"
+
+[lib]
+name = "metla"
+path = "src/lib.rs"
+
+[[bin]]
+name = "metla"
+path = "src/main.rs"
+
+[dependencies]
+ratatui = "0.29"
+crossterm = "0.28"
+rayon = "1.10"
+tar = "0.4"
+zstd = "0.13"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
