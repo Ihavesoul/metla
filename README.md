@@ -6,7 +6,6 @@
 
 Find what is actually eating your disk. Delete it or archive it. In one keypress.
 
-[![CI](https://github.com/Ihavesoul/metla/actions/workflows/ci.yml/badge.svg)](https://github.com/Ihavesoul/metla/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Rust](https://img.shields.io/badge/rust-1.75%2B-orange)
